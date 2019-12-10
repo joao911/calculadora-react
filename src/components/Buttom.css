@@ -13,7 +13,7 @@
 .buttom:active{
     background-color: #ccc;
 }
-.buttom-double{
+.buttom--double{
     grid-column: span 2;
 }
 .buttom--triple{
