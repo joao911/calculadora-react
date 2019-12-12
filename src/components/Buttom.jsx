@@ -4,9 +4,9 @@ import './Buttom.css'
 
 export default props=>{
 let classes = 'buttom'
-classes  += props.operation ? '.operation ' : ''
-classes  += props.double ? '--double ' :''
-classes  += props.triple ? '--triple ' :''
+classes  += props.operation ? '-operation' : ''
+classes  += props.double ? '-double' :''
+classes  += props.triple ? '-triple' :''
 
 return (
     <button
